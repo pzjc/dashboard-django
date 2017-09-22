@@ -1,0 +1,13 @@
+{% extends "admin/base.html" %}
+
+{% block title %} {{ title }} | Orange {% endblock %}
+
+{% block branding %}
+<h1 id="site-name"><a href="{% url 'admin:index' %}"> Orange</a></h1>
+{% endblock %}
+
+{% block content_title %}
+  <h1> User management</h1>
+{% endblock %}
+
+{% block nav-global %}{% endblock %}
